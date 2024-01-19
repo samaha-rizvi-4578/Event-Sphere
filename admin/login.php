@@ -31,7 +31,7 @@ header("location:index.php?page=home");
 	body{
 		width: 100%;
 	    height: calc(100%);
-	    /*background: #007bff;*/
+	    background: #007bff;
 	}
 	main#main{
 		width:100%;

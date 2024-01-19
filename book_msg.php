@@ -1,5 +1,5 @@
 <div class="container-fluid">
-	<p>We will contact you soon for the verification of your book request. Thank you</p>
+	<p>You will be contacted soon !!!Thank you</p>
 </div>
 <div class="modal-footer display">
 	<div class="row">

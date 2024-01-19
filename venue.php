@@ -53,7 +53,7 @@ header.masthead,header.masthead:before {
         <header class="masthead">
         </header>
             <div class="container-fluid mt-3 pt-2">
-                <h4 class="text-center text-white">List of Our Event Venues</h4>
+                <h4 class="text-center text-white">Our Event Venues</h4>
                 <hr class="divider">
                 <div class="row-items">
                 <div class="col-lg-12">
@@ -142,9 +142,6 @@ header.masthead,header.masthead:before {
 
 
 <script>
-    // $('.card.venue-list').click(function(){
-    //     location.href = "index.php?page=view_venue&id="+$(this).attr('data-id')
-    // })
     $('.book-venue').click(function(){
         uni_modal("Submit Booking Request","booking.php?venue_id="+$(this).attr('data-id'))
     })

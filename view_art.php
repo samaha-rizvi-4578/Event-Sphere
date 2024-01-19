@@ -69,15 +69,6 @@ $fs = $conn->query("SELECT * FROM arts_fs where art_id = $id ");
 						<h4 class="text-center"><b><?php echo ucwords($art_title) ?></b></h4>
 						<hr class="divider">
 						<center><small><?php echo ucwords($aname) ?></small></center>
-						<center>
-							 <?php if(isset($fs_aid)): ?>
-                                    <div>
-                                        <span class="badge badge-success">For Sale</span>
-                                        <span class="badge badge-secondary"><i class="fa fa-tag"></i> <?php echo number_format($fs_aid['price'],2) ?></span>
-                                        <span  class="badge badge-primary"><a href="javascript:void(0)" class="order_this text-white" data-id="<?php echo $fs_aid['id'] ?>">Buy</a></span>
-                                    </div>
-                                <?php endif; ?>
-						</center>
 						<br>
 						<?php echo html_entity_decode($art_description); ?>
 					</div>
@@ -90,8 +81,5 @@ $fs = $conn->query("SELECT * FROM arts_fs where art_id = $id ");
 <script>
 	$('.imgs img').click(function(){
 		viewer_modal($(this).attr('src'))
-	})
-	$('.order_this').click(function(){
-		uni_modal("Request Order","manage_order.php?fs_id="+$(this).attr('data-id'))
 	})
 </script>

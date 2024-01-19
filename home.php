@@ -91,7 +91,7 @@ span.hightlight{
                                 <larger class="truncate filter-txt"><?php echo strip_tags($desc) ?></larger>
                                 <br>
                                 <hr class="divider"  style="max-width: calc(80%)">
-                                <button class="btn btn-primary float-right read_more" data-id="<?php echo $row['id'] ?>">Read More</button>
+                                <button class="btn btn-primary float-right read_more" data-id="<?php echo $row['id'] ?>">Read More..</button>
                             </div>
                         </div>
                         

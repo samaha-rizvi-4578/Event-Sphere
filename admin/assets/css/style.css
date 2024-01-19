@@ -1,36 +1,19 @@
-/**
-* Template Name: Medilab - v2.0.0
-* Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
   width: 100%;
   height: calc(100%);
 }
-
 a {
   color: #1977cc;
 }
-
 a:hover {
   color: #3291e6;
   text-decoration: none;
 }
-
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
-
-/*--------------------------------------------------------------
-# Preloader
---------------------------------------------------------------*/
 #preloader {
   position: fixed;
   top: 0;
@@ -41,7 +24,6 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   background: #fff;
 }
-
 #preloader:before {
   content: "";
   position: fixed;
@@ -65,7 +47,6 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   background: #ffffff82;
 }
-
 #preloader2:before {
   content: "";
   position: fixed;
@@ -96,10 +77,6 @@ h1, h2, h3, h4, h5, h6 {
     transform: rotate(360deg);
   }
 }
-
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
   display: none;
@@ -129,21 +106,15 @@ h1, h2, h3, h4, h5, h6 {
 .datepicker-dropdown {
   padding: 20px !important;
 }
-
-/*--------------------------------------------------------------
-# Top Bar
---------------------------------------------------------------*/
 #topbar {
   background: #fff;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
 }
-
 #topbar.topbar-scrolled {
   top: -40px;
 }
-
 #topbar .contact-info a {
   line-height: 1;
   color: #444444;
