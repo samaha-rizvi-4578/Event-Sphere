@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 19, 2024 at 06:42 PM
+-- Generation Time: Jan 19, 2024 at 07:52 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.0.28
 
@@ -99,7 +99,7 @@ CREATE TABLE `system_settings` (
 --
 
 INSERT INTO `system_settings` (`id`, `name`, `email`, `contact`, `cover_img`, `about_content`) VALUES
-(1, 'Event Sphere', 'k214578@nu.edu.pk', '+92 123456789', '1705684200_home.jpeg', '&lt;p style=&quot;text-align: center; background: transparent; position: relative; color: rgb(51, 51, 51);&quot;&gt;Welcome to&lt;span style=&quot;text-align: center; background: transparent; position: relative; color: rgb(51, 51, 51);&quot;&gt;EventSphere&lt;span style=&quot;color:rgb(102,0,0);text-align: center; background: transparent; position: relative;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;, your premier destination for seamless esports event management! Founded by three avid gaming enthusiasts&lt;span style=&quot;color:rgb(204,0,0);text-align: center; background: transparent; position: relative;&quot;&gt;&mdash;&lt;b style=&quot;text-align: center; background: transparent; position: relative; color: rgb(204, 0, 0);&quot;&gt;&lt;span style=&quot;text-align: center; background: transparent; position: relative; color: rgb(204, 0, 0);&quot;&gt;Abdul Rehman, Samaha Batool, and Shaheer ul Islam&lt;/span&gt;&lt;/b&gt;&mdash;&lt;/span&gt;EventSphere is not just a platform; it&rsquo;s a digital arena where esports events come to life with unparalleled precision and enthusiasm. As dedicated gamers ourselves, we recognize the unique dynamics of the esports world and have tailored EventSphere to cater specifically to the needs of competitive gaming events. Our platform offers a cutting-edge suite of tools designed to streamline every aspect of esports event planning, from tournament organization and team management to live streaming integration and audience engagement. Embrace the future of esports events with EventSphere, where your passion meets our expertise to create unforgettable gaming spectacles. Level up your event management game with EventSphere&mdash;because in esports, every detail matters.&lt;br style=&quot;text-align: center; background: transparent; position: relative;&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;');
+(1, 'Event Sphere', 'k214578@nu.edu.pk', '+92 123456789', '1705690080_home.png', '&lt;p style=&quot;text-align: center; background: transparent; position: relative; color: rgb(51, 51, 51);&quot;&gt;Welcome to&lt;span style=&quot;text-align: center; background: transparent; position: relative; color: rgb(51, 51, 51);&quot;&gt;EventSphere&lt;span style=&quot;color:rgb(102,0,0);text-align: center; background: transparent; position: relative;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;, your premier destination for seamless esports event management! Founded by three avid gaming enthusiasts&lt;span style=&quot;color:rgb(204,0,0);text-align: center; background: transparent; position: relative;&quot;&gt;&mdash;&lt;b style=&quot;text-align: center; background: transparent; position: relative; color: rgb(204, 0, 0);&quot;&gt;&lt;span style=&quot;text-align: center; background: transparent; position: relative; color: rgb(204, 0, 0);&quot;&gt;Abdul Rehman, Samaha Batool, and Shaheer ul Islam&lt;/span&gt;&lt;/b&gt;&mdash;&lt;/span&gt;EventSphere is not just a platform; it&rsquo;s a digital arena where esports events come to life with unparalleled precision and enthusiasm. As dedicated gamers ourselves, we recognize the unique dynamics of the esports world and have tailored EventSphere to cater specifically to the needs of competitive gaming events. Our platform offers a cutting-edge suite of tools designed to streamline every aspect of esports event planning, from tournament organization and team management to live streaming integration and audience engagement. Embrace the future of esports events with EventSphere, where your passion meets our expertise to create unforgettable gaming spectacles. Level up your event management game with EventSphere&mdash;because in esports, every detail matters.&lt;br style=&quot;text-align: center; background: transparent; position: relative;&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;');
 
 -- --------------------------------------------------------
 
@@ -170,7 +170,8 @@ CREATE TABLE `venue_booking` (
 
 INSERT INTO `venue_booking` (`id`, `name`, `address`, `email`, `contact`, `venue_id`, `duration`, `datetime`, `status`) VALUES
 (1, 'Cecilia Chapman', 'Ap #651-8679 Sodales Av.\r\nTamuning PA', 'Cecilia123@gmail.com', '+92 2323123123', 2, '5 hours', '0000-00-00 00:00:00', 1),
-(2, 'Forrest Ray', '191-103 Integer Rd.\r\nCorona New Mexico', 'forrest432@gmail.com', '+92 34534532', 2, '4 hours', '0000-00-00 00:00:00', 1);
+(2, 'Forrest Ray', '191-103 Integer Rd.\r\nCorona New Mexico', 'forrest432@gmail.com', '+92 34534532', 2, '4 hours', '0000-00-00 00:00:00', 1),
+(3, '', '', '', '', 4, '', '0000-00-00 00:00:00', 0);
 
 --
 -- Indexes for dumped tables
@@ -250,7 +251,7 @@ ALTER TABLE `venue`
 -- AUTO_INCREMENT for table `venue_booking`
 --
 ALTER TABLE `venue_booking`
-  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
