@@ -1,28 +1,30 @@
-
+ 
 Event Notification Web Application: "Event Sphere"
 Introducing "Event Sphere", an innovative event notification web application crafted by a dedicated team of junior-year students from FAST University. Our dynamic trio comprises of Samaha Batool, Shaheer-ul-Islam, and Abdul Rehman.
 
-About the Project
-Event Sphere is a robust web application developed using HTML, CSS, JavaScript for frontend, and PHP for the backend, with MySQL serving as the database. Designed to revolutionize event planning, our application introduces a range of features to make your experience seamless and enjoyable.
+# Event Sphere - Your Esports Tournament Companion
 
-Key Features
-Venue Discovery: Explore a diverse array of venues tailored to your event needs.
+**About Event Sphere**
 
-Booking System: Effortlessly book venues for your events, choosing dates that suit your schedule.
+Event Sphere is a cutting-edge web application dedicated to the exciting world of esports. Crafted with passion and expertise, our platform is designed to elevate your esports event planning experience.
 
-Pricing Information: View detailed pricing options for each venue, helping you make informed decisions within your budget.
+**Key Features**
 
-Event Notifications: Stay in the loop with our event notification feature. Receive timely updates and reminders to ensure your planning process is smooth and stress-free.
+1. **Arena Exploration 🎮:** Immerse yourself in a world of esports arenas tailored for gaming events.
+2. **Match Booking System 📅:** Effortlessly secure venues for your esports tournaments, choosing dates that align with your gaming schedule.
+3. **Gaming Station Pricing 💰:** Access detailed pricing options for each gaming venue, making informed decisions within your budget.
+4. **Esports Notifications 🚀:** Stay in the gaming loop with our esports event notification feature. Receive timely updates and reminders for seamless tournament planning.
 
-How to Use:
+**How to Use**
 
-Discover Venues: Find the perfect setting for your event by exploring a variety of venues.
+1. **Discover Gaming Arenas 🌐:** Find the perfect esports battleground by exploring a variety of gaming arenas tailored for competitive play.
 
-Bookmark Favorites: Save preferred venues for quick access and reference.
+2. **Bookmark Favorites 📌:** Save preferred gaming venues for quick access and reference during your tournament planning.
 
-Book Your Venue: Easily secure your selected venue for your chosen date.
+3. **Book Your Gaming Arena 🎟️:** Easily secure your selected esports venue for your chosen tournament date, creating an epic gaming experience.
 
-Set Notifications: Enable event notifications to receive timely updates, ensuring you never miss a crucial detail.
+4. **Set Gaming Notifications 🔔:** Enable esports event notifications to receive timely updates, ensuring you never miss a crucial detail in your gaming tournament journey.
+
 
 Contact Us
 Have questions, feedback, or need assistance? Feel free to reach out to us:
@@ -36,16 +38,11 @@ We appreciate your interest in Event Sphere and look forward to enhancing your e
 The setup can be done by following these steps:
 
 1. Download the zip file/ download winrar from the repository.
-
-2. Extract the file and copy "Event_Management_System" folder and Paste inside root directory/ where you install xammp local disk C: paste in : (xampp/htdocs)
-
+2. Extract the file and copy "Event_Sphere_System" folder and Paste inside root directory/ where you install xammp local disk C: paste in : (xampp/htdocs)
 4. Open PHPMyAdmin (http://localhost/phpmyadmin)
-
 5. Create a database with the name event_db
-
 7. Import event_db.sql file (given inside the zip package in SQL file folder)
-
-8.Run the script http://localhost/Event_Management_System
+8.Run the script http://localhost/Event_Sphere_System or type http://localhost/Event_Sphere_System in your browser
 
 
 **LOGIN DETAILS** 
